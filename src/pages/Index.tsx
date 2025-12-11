@@ -104,7 +104,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <h1 className="text-2xl font-bold font-heading">FindMarket</h1>
+              <h1 className="font-heading font-extrabold text-[#ffffff] text-4xl">FindMarket</h1>
               
               <nav className="hidden lg:flex items-center gap-6">
                 <Button variant="ghost" className="text-primary-foreground hover:text-primary-foreground hover:bg-primary/90">
