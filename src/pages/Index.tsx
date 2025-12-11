@@ -211,7 +211,7 @@ const Index = () => {
       <main className="container mx-auto px-4 py-8">
         <div className="mb-8 animate-fade-in">
           <h2 className="text-4xl font-bold font-heading mb-4 text-center">Найдите лучшие цены для вашего бизнеса</h2>
-          <p className="text-muted-foreground text-center mb-6 text-lg">Сравните предложения от тысяч продавцов</p>
+          <p className="text-center mb-6 text-lg text-[#000000]">Сравните предложения от тысяч продавцов</p>
           
           <div className="max-w-2xl mx-auto relative">
             <Icon name="Search" size={20} className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
@@ -227,7 +227,7 @@ const Index = () => {
 
         <div className="mb-6">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-2xl font-semibold font-heading">
+            <h3 className="font-semibold font-heading text-[#000000] text-3xl">
               {searchQuery ? `Результаты поиска: ${filteredProducts.length}` : 'Популярные товары'}
             </h3>
             <div className="flex gap-2">
